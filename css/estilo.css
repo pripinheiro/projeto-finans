@@ -19,3 +19,21 @@ footer p a {
 }
 
 /******LOGIN*****/
+
+
+/*****Planos*****/
+
+#planos {
+    background: #ffc107;
+}
+
+#planos h1{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.card-columns {
+    @include media-breakpoint-only (lg){
+        columns-count: 4;
+    }
+}
